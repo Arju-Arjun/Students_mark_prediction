@@ -53,6 +53,6 @@ prediction = loaded_model.predict(new_data)
 
 if st.button('Predict'):
     if prediction[0] > 50:
-        st.balloons()
+        # st.balloons()
     st.write('The predicted score is:', prediction[0])
 
